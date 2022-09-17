@@ -1,0 +1,169 @@
+body {
+    /*font-family: "Times New Roman", Times, serif;*/
+    /*font-family: arial,helvetica,sans-serif;*/
+    font-family: helvetica, sans-serif;
+    /*font-family: "fira-sans",sans-serif;*/
+    /*font-family:"adelle",serif;*/
+    /*font-family: "Helvetica Neu",sans-serif;*/
+
+    /*for fixed navbar*/
+    /*min-height: 75rem;*/
+    min-height: 60rem;
+    padding-top: 7rem;
+}
+
+
+
+
+/*
+        .jumbotron1 
+        {
+          background-color: #e9ecef;
+          margin-bottom: 40px;
+          margin-top: 60px;  
+          padding-bottom: 20px;
+          padding-top: 5px;
+        }
+    */
+
+
+
+.navbar-nav li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.navbar {
+    margin-bottom: 20px;
+    /*overflow: hidden;*/
+    /*background-color: #333;*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+/* change the background color of navbar - DICCA oficial color*/
+.bg-unige {
+    background-color: #574676 !important;
+}
+
+.nav-link {
+    /*color: white !important;*/
+    /*color: red;*/
+}
+
+
+h5.a {
+    line-height: 1.6;
+}
+
+h4.a {
+    line-height: 1.6;
+}
+
+h3.a {
+    line-height: 1.6;
+}
+
+h2.a {
+    line-height: 1.6;
+}
+
+h1.a {
+    line-height: 1.6;
+}
+
+
+p.a {
+    line-height: 1.6;
+}
+
+ul.a {
+    line-height: 1.6;
+}
+
+li.a {
+    line-height: 1.6;
+    /*margin-top: 5px;*/
+    /*border:1px solid grey;*/
+}
+
+hr.style1 {
+    /*border-top: 2px solid #8c8b8b;*/
+    border-top: 1px solid;
+}
+
+
+
+/*accordion options*/
+
+.accordion .card-header:after {
+    font-family: 'FontAwesome';
+    content: "\f068";
+    float: right;
+    /*overflow: auto;*/
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 30px;
+    position: relative;
+    right: 0px;
+    bottom: 50px;
+}
+
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067";
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 30px;
+}
+
+
+.w3-tangerine {
+    font-family: "Tangerine", serif;
+}
+
+/*accordion options*/
+
+
+
+/*scroll to top options*/
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    /*background-color: red;*/
+    /*background-color: #f0ad4e;*/
+    background-color: #d9534f;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /*background-color: #f0ad4e;*/
+}
+
+/*scroll to top options*/
+
+
+/*
+    #myBtn1 {
+      background-color: #d9534f;
+      color: white;
+    }
+    */
+
+.popover {
+    z-index: 1;
+}
