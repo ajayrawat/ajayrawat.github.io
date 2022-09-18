@@ -1,38 +1,13 @@
 body {
-    /*font-family: "Times New Roman", Times, serif;*/
-    /*font-family: arial,helvetica,sans-serif;*/
     font-family: helvetica, sans-serif;
-    /*font-family: "fira-sans",sans-serif;*/
-    /*font-family:"adelle",serif;*/
-    /*font-family: "Helvetica Neu",sans-serif;*/
-
-    /*for fixed navbar*/
-    /*min-height: 75rem;*/
     min-height: 60rem;
     padding-top: 7rem;
 }
-
-
-
-
-/*
-        .jumbotron1 
-        {
-          background-color: #e9ecef;
-          margin-bottom: 40px;
-          margin-top: 60px;  
-          padding-bottom: 20px;
-          padding-top: 5px;
-        }
-    */
-
-
 
 .navbar-nav li {
     padding-left: 10px;
     padding-right: 10px;
 }
-
 
 .navbar {
     margin-bottom: 20px;
@@ -46,14 +21,13 @@ body {
 
 /* change the background color of navbar - DICCA oficial color*/
 .bg-unige {
-    background-color: #574676 !important;
+    background-color: rgb(13, 110, 253) !important;
 }
 
 .nav-link {
     /*color: white !important;*/
     /*color: red;*/
 }
-
 
 h5.a {
     line-height: 1.6;
@@ -95,10 +69,7 @@ hr.style1 {
     border-top: 1px solid;
 }
 
-
-
 /*accordion options*/
-
 .accordion .card-header:after {
     font-family: 'FontAwesome';
     content: "\f068";
@@ -127,8 +98,6 @@ hr.style1 {
 
 /*accordion options*/
 
-
-
 /*scroll to top options*/
 
 #myBtn {
@@ -151,18 +120,7 @@ hr.style1 {
 
 #myBtn:hover {
     background-color: #555;
-    /*background-color: #f0ad4e;*/
 }
-
-/*scroll to top options*/
-
-
-/*
-    #myBtn1 {
-      background-color: #d9534f;
-      color: white;
-    }
-    */
 
 .popover {
     z-index: 1;
